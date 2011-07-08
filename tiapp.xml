@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <id>de.binarythinking.gasgas</id>
+    <name>gasgas</name>
+    <version>1.0.1</version>
+    <publisher>andreas</publisher>
+    <url>http://www.binarythinking.de</url>
+    <description>Einfacher Verbrauchsrechner.</description>
+    <copyright>2011 by andreas</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>d233aeef-4964-43a5-9a41-c5c2e4415f47</guid>
+	<iphone>
+		<orientations device="iphone">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+		</orientations>
+		<orientations device="ipad">
+			<orientation>Ti.UI.PORTRAIT</orientation>
+			<orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+			<orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+		</orientations>
+	</iphone>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	    <manifest android:versionCode="2" android:versionName="1.0.1">
+	        <supports-screens 
+	            android:smallScreens="true"
+	            android:normalScreens="true"
+	            android:largeScreens="true"
+	            android:anyDensity="true"
+	        />
+		    <application android:debuggable="false" />
+	    </manifest>
+	</android>
+	<modules>
+	</modules>
+</ti:app>
